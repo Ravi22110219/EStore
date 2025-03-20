@@ -6,5 +6,5 @@
 
 */
 -- AlterTable
-ALTER TABLE "Product" DROP COLUMN "calegory",
+ALTER TABLE "Product" DROP COLUMN "category",
 ADD COLUMN     "category" TEXT NOT NULL;

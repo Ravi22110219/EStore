@@ -8,3 +8,8 @@ export const CREATE_BY_COMPANY =
   process.env.NEXT_COMPANY_NAME || ' Bidsuk Techno Creation'
 export const LATEST_PRODUCTS_LIMIT =
   Number(process.env.LATEST_PRODUCTS_LIMIT) || 4
+
+export const signInDefaultValues = {
+  email: '',
+  password: '',
+}
